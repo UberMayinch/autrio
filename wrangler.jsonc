@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "autrio",
+  "compatibility_date": "2026-11-01",
+  "assets": { "directory": "./public" },
+  "routes": [
+    { "pattern": "autrio.gay", "custom_domain": true },
+    { "pattern": "www.autrio.gay", "custom_domain": true }
+  ]
+}
